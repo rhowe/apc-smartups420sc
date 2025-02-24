@@ -1,0 +1,1631 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aee32292-8cb2-4705-b52a-d45385227d25")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 114.3 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f096e2e-8b03-4a26-aa26-1864c783cb08")
+	)
+	(junction
+		(at 137.16 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d8fea6a-d7d6-4542-b726-865e8113dd62")
+	)
+	(junction
+		(at 114.3 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1e0ab8-767c-4dee-828e-a1088e14dda0")
+	)
+	(junction
+		(at 148.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e10eb9-73e1-4cd9-afee-846f8e70b504")
+	)
+	(junction
+		(at 160.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692f8199-c148-4907-9d8c-fd42f8a66e3d")
+	)
+	(junction
+		(at 114.3 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c1e42c0-bb80-4f2b-bcfe-003606ade8b4")
+	)
+	(junction
+		(at 160.02 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8966f478-4ec8-48a9-84b8-78f94e79b055")
+	)
+	(junction
+		(at 171.45 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9826c064-9b3f-43ef-861a-0551391dca6f")
+	)
+	(junction
+		(at 148.59 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7f0723f-e988-4f08-8ed7-006258337bd1")
+	)
+	(junction
+		(at 171.45 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf91427-e5d2-42cd-802e-8458c5d275f0")
+	)
+	(junction
+		(at 182.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc928dcf-9e54-43d4-9354-c997be7007e2")
+	)
+	(wire
+		(pts
+			(xy 182.88 69.85) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8ede12-25dd-41d6-9276-95bf0faeb4f6")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1179246c-587d-4393-b384-70c2e2d8d409")
+	)
+	(wire
+		(pts
+			(xy 182.88 69.85) (xy 195.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117d1258-a316-4cac-becf-09d68246f943")
+	)
+	(wire
+		(pts
+			(xy 195.58 69.85) (xy 195.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140ac909-cb4a-41ca-bed2-04f83c3fe023")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2187c618-34a3-455a-b15b-70ff68d46d17")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 137.16 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d04457-012e-45bc-a6d1-898c177b6d91")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282139c8-17cb-4d2c-ba4b-c468c08b1822")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1b34d4-7578-4eb3-8d4b-557e1c98be60")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 114.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310f84ca-268c-4bfb-bab5-a85fde3959c3")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313a9b4a-0fb8-41a9-b07e-b9412fe24839")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350487f0-d521-4ad4-b77e-c06b52430f1f")
+	)
+	(wire
+		(pts
+			(xy 182.88 85.09) (xy 182.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdaafd2-5323-4506-884a-e2fb47a3281e")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d14acaa-0f16-4749-bba0-933349696994")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "456178f9-3005-4db1-a4ea-1e17fb81dd13")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482ff37b-4387-429e-a983-40986f71a06b")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4858ab84-ade8-4ab5-bf92-0e0be0ad8158")
+	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 148.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1d6f08-b8d4-4bc9-a0df-c73efac7af9b")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 182.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d8e92f-30eb-4653-b650-08ac8094e96c")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b030b4-bc98-4ade-b9aa-60df42590db2")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801a14f7-7c6f-439f-acb9-cc0dfe3d7018")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa5d6e9-2762-4da6-b5b7-e7689c278f35")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab0e8d7-b2ae-4d30-a7f3-59df6acf0242")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a179f186-00ed-4051-a12e-a11b05a876a9")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ccb927-6715-4f8f-addd-d37a68e4d870")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 160.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c80c7e-8078-4e84-b3e5-0e29968beaf1")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64568cb-ecb2-4086-9f9e-5ddc8dc8592f")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce749802-a1f2-46e3-96cf-39b50b026fb2")
+	)
+	(wire
+		(pts
+			(xy 171.45 83.82) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04653c2-ce31-43e4-8887-de8efa6458be")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1998ddc-18c7-49bb-a008-dc4104782854")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fbd455-754b-43d9-bd8b-3471316fff8d")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c7137f-6b55-42ef-8cf9-dbae74d4e830")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8ef7eb-7879-45a0-96da-1ca49a08eb36")
+	)
+	(global_label "PANEL2"
+		(shape input)
+		(at 114.3 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f5ad13f-57e3-458e-b177-cc317878ca37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANEL7"
+		(shape input)
+		(at 160.02 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "421fb140-e4a5-4fd4-9fb0-7db44469e4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANEL5"
+		(shape input)
+		(at 182.88 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51c949e5-66f7-4907-be63-b9036ee21afc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANEL3"
+		(shape input)
+		(at 137.16 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ccf555d-c945-4155-b7a2-45e6b7b393f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANEL4"
+		(shape input)
+		(at 195.58 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "901b348e-a15b-4323-adac-9211d87780fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANEL1"
+		(shape input)
+		(at 148.59 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92b29b0e-b90d-40ce-829d-f6beb1e60d43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANEL6"
+		(shape input)
+		(at 171.45 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca49ec7b-69e8-4550-9ebb-10ce832b47a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.45 145.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 137.16 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf90be5-edf4-4ba2-a55b-1e11719d5ffe")
+		(property "Reference" "C1"
+			(at 139.7 79.4638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 139.7 82.0038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a266039c-f4af-4a12-9a4d-e22b0783df2a")
+		)
+		(pin "2"
+			(uuid "487e0f66-6401-4da2-91e1-beb5a62657fb")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44ed32c0-ee8b-41b3-9505-f4e22d314481")
+		(property "Reference" "LED6"
+			(at 127.254 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 122.936 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4f75fe6-4489-41c3-aa39-baed32429016")
+		)
+		(pin "2"
+			(uuid "46844ce0-5e08-44aa-b8fc-30fc73688a19")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 171.45 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50abb4cc-2349-42e2-937f-c4afc4738075")
+		(property "Reference" "C4"
+			(at 173.99 79.4638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 173.99 82.0038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d4ac3df-bde1-4790-a609-6125e4c05689")
+		)
+		(pin "2"
+			(uuid "df2b426e-38f3-4514-bdcb-e7a755e35cac")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56dd0220-64ba-47ef-a22a-2072667b6711")
+		(property "Reference" "LED3"
+			(at 127 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 123.444 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ec74771-efc1-4f4b-81d9-f897eb9cf375")
+		)
+		(pin "1"
+			(uuid "b9a5cd18-0889-4c6e-ac4f-b25e51169139")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 160.02 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62087cdc-b458-4069-871b-6f399cabb2b5")
+		(property "Reference" "C3"
+			(at 162.56 79.4638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 162.56 82.0038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b9274b7-1471-4f5c-a6c9-056f8c8d113b")
+		)
+		(pin "2"
+			(uuid "d398c7ab-2bf0-4e46-a2b6-6d9c6d1e5ef2")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78e62480-c404-44a1-bf4a-91d19e67d6e6")
+		(property "Reference" "LED1"
+			(at 127 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 123.19 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "857726a4-9ce2-4b02-96ef-480088244f71")
+		)
+		(pin "1"
+			(uuid "86934c56-200e-4660-a0e5-dc18e031d5d4")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 182.88 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89156a18-3013-497c-ad52-39963febb5cf")
+		(property "Reference" "SW1"
+			(at 185.42 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 185.42 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c56e3ba3-9408-45fb-8a0e-7267590a53b2")
+		)
+		(pin "2"
+			(uuid "0e6942cb-8ba8-4c1a-89b6-1b83836eecdc")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d05f155d-84e5-4570-8f38-3e1452957f7d")
+		(property "Reference" "LED4"
+			(at 126.746 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 123.19 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8654f472-1c2b-4c16-97b8-f4b3558174d6")
+		)
+		(pin "2"
+			(uuid "89eb00f5-dd15-49ab-9c5e-64a92a73a4bf")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 148.59 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94fc30b-6192-4936-9868-92e67e4ab45d")
+		(property "Reference" "C2"
+			(at 151.13 79.4638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 151.13 82.0038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e01443f-be09-4a5d-93f4-f01df2508850")
+		)
+		(pin "1"
+			(uuid "d7953b18-f8c1-4ca8-9b37-5a8a4141b006")
+		)
+		(instances
+			(project ""
+				(path "/aee32292-8cb2-4705-b52a-d45385227d25"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
