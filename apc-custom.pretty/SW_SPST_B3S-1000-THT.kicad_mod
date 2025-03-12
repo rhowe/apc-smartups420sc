@@ -1,7 +1,7 @@
 (footprint "SW_SPST_B3S-1000-THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Surface Mount Tactile Switch for High-Density Packaging")
 	(tags "Tactile Switch")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c22c2599-e2ae-4610-a677-0bc0a7c57826")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -148,6 +135,86 @@
 		(uuid "9f077c1c-2061-42bd-a6c4-8489e3e54e8f")
 	)
 	(fp_line
+		(start -3.15 -3.45)
+		(end -3.15 -3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "41bf7733-0a01-463d-b2d5-76f775659f3d")
+	)
+	(fp_line
+		(start -3.15 -1.3)
+		(end -3.15 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4398a122-42fd-4150-895f-1f93b09e12c5")
+	)
+	(fp_line
+		(start -3.15 3.2)
+		(end -3.15 3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "333712b2-f8c6-4b2e-8d17-a100b477dfb7")
+	)
+	(fp_line
+		(start -3.15 3.45)
+		(end 3.15 3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a6d24b79-852c-4c70-98e1-c465d1ed91c7")
+	)
+	(fp_line
+		(start 3.15 -3.45)
+		(end -3.15 -3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b7197802-616c-40a6-a5c8-9db608dcafa0")
+	)
+	(fp_line
+		(start 3.15 -3.2)
+		(end 3.15 -3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "685713bc-b3a5-4dad-9d41-14014b746b02")
+	)
+	(fp_line
+		(start 3.15 1.3)
+		(end 3.15 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b17ce717-1f0d-453a-8c99-c937db1cf2aa")
+	)
+	(fp_line
+		(start 3.15 3.45)
+		(end 3.15 3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f1b19b33-1cb3-420f-b765-9827f90853a8")
+	)
+	(fp_line
 		(start -5 -3.7)
 		(end -5 3.7)
 		(stroke
@@ -234,9 +301,22 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b5b3484d-f62f-4e61-b20d-87d61cd7c499")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "75218f27-9fdd-42ba-b1bd-8e012aa91e21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -4.5 0)
@@ -250,7 +330,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -3.975 -2.25)
+		(at -3 -2.25)
 		(size 1.55 1.55)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -258,7 +338,7 @@
 		(uuid "fc8ab4be-de98-4957-af12-c1ecf6c9dcac")
 	)
 	(pad "1" thru_hole circle
-		(at 3.975 -2.25)
+		(at 3 -2.25)
 		(size 1.55 1.55)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -266,7 +346,7 @@
 		(uuid "2ff99e46-3780-4596-807d-a106dff4de53")
 	)
 	(pad "2" thru_hole circle
-		(at -3.975 2.25)
+		(at -3 2.25)
 		(size 1.55 1.55)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -274,13 +354,14 @@
 		(uuid "fbe1066a-97e2-4ada-8bb4-451ebce4c9f0")
 	)
 	(pad "2" thru_hole circle
-		(at 3.975 2.25)
+		(at 3 2.25)
 		(size 1.55 1.55)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b8dc67db-358a-4a55-b6fa-265223233c20")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3S-1000.wrl"
 		(offset
 			(xyz 0 0 0)
