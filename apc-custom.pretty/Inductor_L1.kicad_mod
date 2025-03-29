@@ -1434,13 +1434,21 @@
 		(remove_unused_layers no)
 		(uuid "15b85753-3cd5-4aa8-bc72-12ca71258a5a")
 	)
-	(pad "3" thru_hole circle
+	(pad "2" thru_hole circle
 		(at -0.5 5.5)
 		(size 1.52 1.52)
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2974b5be-7f77-4933-9970-5a4ae16eff99")
+	)
+	(pad "3" thru_hole circle
+		(at -10.5 -2)
+		(size 1.52 1.52)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3783ca97-150f-46d7-8634-71798171162b")
 	)
 	(pad "4" thru_hole circle
 		(at -10.5 5.5)
@@ -1449,14 +1457,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8eb8d936-8097-4a0a-b0b2-56573bb426ae")
-	)
-	(pad "6" thru_hole circle
-		(at -10.5 -2)
-		(size 1.52 1.52)
-		(drill 0.81)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "3783ca97-150f-46d7-8634-71798171162b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_NF_ETAL_P3324.wrl"

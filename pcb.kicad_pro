@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.8,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -609,6 +609,10 @@
     [
       "b6630f61-7b69-46f7-b2b4-171a6303122b",
       "Serial interface"
+    ],
+    [
+      "1b3fab78-2ea1-40c2-add7-9bbb6f678305",
+      "Line in"
     ]
   ],
   "text_variables": {}

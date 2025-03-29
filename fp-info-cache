@@ -1,4 +1,4 @@
-24783371279720218
+24785115848752339
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99595,6 +99595,13 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 14
 14
+apc-custom
+DIP-40_W15.24mm_Socket_MC
+40-lead though-hole mounted DIP package, row spacing 15.24mm (600 mils), Socket
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
+0
+40
+40
 apc-custom
 DSUB-9_Female_Horizontal_Flipped_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
 9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.7mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
