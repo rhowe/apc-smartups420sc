@@ -1229,12 +1229,6 @@
 		(uuid "80b4c26c-9df9-4493-a4d8-5782976ebda3")
 	)
 	(junction
-		(at 114.3 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3385410-5632-4e4b-87ac-242fbb3cbe68")
-	)
-	(junction
 		(at 130.81 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1252,6 +1246,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09efcdb7-d2e0-4118-be70-c2d37377b211")
+	)
+	(wire
+		(pts
 			(xy 130.81 72.39) (xy 130.81 82.55)
 		)
 		(stroke
@@ -1259,16 +1263,6 @@
 			(type default)
 		)
 		(uuid "1057cb1e-f1aa-4573-be3b-33b982c4dabc")
-	)
-	(wire
-		(pts
-			(xy 111.76 63.5) (xy 134.62 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134b5dd9-209a-4ae0-8434-f2961bc19aa7")
 	)
 	(wire
 		(pts
@@ -1299,36 +1293,6 @@
 			(type default)
 		)
 		(uuid "33272531-a615-4a35-bce2-4acc32a2a68e")
-	)
-	(wire
-		(pts
-			(xy 111.76 63.5) (xy 111.76 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ba1c76-9a2e-4b50-b6a4-06afc68b9f20")
-	)
-	(wire
-		(pts
-			(xy 130.81 58.42) (xy 130.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da55f9d-bffe-4027-a433-3879952b67ec")
-	)
-	(wire
-		(pts
-			(xy 111.76 58.42) (xy 114.3 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ddabaaa-c22e-4934-9cdd-e149c577b10d")
 	)
 	(wire
 		(pts
@@ -1382,23 +1346,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 41.91) (xy 129.54 41.91)
+			(xy 130.81 41.91) (xy 129.54 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78252d41-54c5-4fac-9db2-b9e5d583ba7b")
+		(uuid "6b81e293-4bb9-4c5f-a943-d3f951e85076")
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 114.3 49.53)
+			(xy 111.76 49.53) (xy 111.76 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b9a1182-28bb-403a-ac41-7351f0cffb97")
+		(uuid "70a8ccb5-8bfb-4e6d-8ab5-737874df3ae1")
 	)
 	(wire
 		(pts
@@ -1409,6 +1373,16 @@
 			(type default)
 		)
 		(uuid "88c81e07-2076-4184-886f-48e48be5a231")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae5152c-e8a2-4ebd-86e9-724f3f00afbe")
 	)
 	(wire
 		(pts
@@ -1442,26 +1416,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 130.81 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf9c4576-976e-421a-8162-cc78864ed8b6")
-	)
-	(wire
-		(pts
-			(xy 134.62 41.91) (xy 134.62 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d027b383-bff2-42f1-ba00-a8053135d2bb")
-	)
-	(wire
-		(pts
 			(xy 129.54 29.21) (xy 142.24 29.21)
 		)
 		(stroke
@@ -1482,7 +1436,7 @@
 	)
 	(hierarchical_label "NEUTRAL_IN"
 		(shape passive)
-		(at 111.76 106.68 270)
+		(at 130.81 106.68 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1526,7 +1480,7 @@
 	)
 	(hierarchical_label "LIVE_IN"
 		(shape passive)
-		(at 130.81 106.68 270)
+		(at 111.76 106.68 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1537,12 +1491,12 @@
 	)
 	(hierarchical_label "NEUTRAL_SENSE"
 		(shape passive)
-		(at 111.76 63.5 180)
+		(at 130.81 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c77fc72b-c9e0-4bdf-bca4-1ecadced348e")
 	)
@@ -1636,7 +1590,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 72.39 90)
+		(at 137.16 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1645,7 +1599,7 @@
 		(fields_autoplaced yes)
 		(uuid "51887698-9584-419f-8947-0b8606b578f4")
 		(property "Reference" "C58"
-			(at 102.87 64.77 90)
+			(at 137.16 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1607,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 102.87 67.31 90)
+			(at 137.16 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1615,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 106.68 71.4248 0)
+			(at 133.35 73.3552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 72.39 0)
+			(at 137.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 72.39 0)
+			(at 137.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 72.39 90)
+		(at 102.87 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1779,7 +1733,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dd5a9a2-77ee-443e-8a73-ee470bc7995f")
 		(property "Reference" "C56"
-			(at 137.16 64.77 90)
+			(at 102.87 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1741,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 137.16 67.31 90)
+			(at 102.87 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1749,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 140.97 71.4248 0)
+			(at 99.06 73.3552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 72.39 0)
+			(at 102.87 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 72.39 0)
+			(at 102.87 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1792,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite")
-		(at 130.81 86.36 0)
+		(at 111.76 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1847,7 +1801,7 @@
 		(fields_autoplaced yes)
 		(uuid "858206a9-9eca-4446-8385-13f0021a3c69")
 		(property "Reference" "L3"
-			(at 133.35 85.0899 0)
+			(at 114.3 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1810,7 @@
 			)
 		)
 		(property "Value" "L_Radial_D14.2mm_P10.00mm_Neosid_SD14"
-			(at 133.35 87.6299 0)
+			(at 114.3 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1819,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_THT:L_Radial_D14.2mm_P10.00mm_Neosid_SD14"
-			(at 130.81 86.36 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 86.36 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 86.36 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1862,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 120.65 96.52 90)
+		(at 120.65 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1917,7 +1871,7 @@
 		(fields_autoplaced yes)
 		(uuid "95e350f8-6460-46e2-982d-8c887c56e74c")
 		(property "Reference" "MOV1"
-			(at 120.8433 90.17 90)
+			(at 120.4566 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1879,7 @@
 			)
 		)
 		(property "Value" "RV_Disc_D15.5mm_W3.9mm_P7.5mm"
-			(at 120.8433 92.71 90)
+			(at 120.4566 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1887,7 @@
 			)
 		)
 		(property "Footprint" "Varistor:RV_Disc_D15.5mm_W3.9mm_P7.5mm"
-			(at 120.65 98.298 90)
+			(at 120.65 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1930,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite")
-		(at 111.76 86.36 180)
+		(at 130.81 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1985,7 +1939,7 @@
 		(fields_autoplaced yes)
 		(uuid "be72e156-8b2d-4b0d-96bb-8eaa65afe051")
 		(property "Reference" "L2"
-			(at 113.03 85.0899 0)
+			(at 132.08 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +1948,7 @@
 			)
 		)
 		(property "Value" "L_Radial_D14.2mm_P10.00mm_Neosid_SD14"
-			(at 113.03 87.6299 0)
+			(at 132.08 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +1957,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_THT:L_Radial_D14.2mm_P10.00mm_Neosid_SD14"
-			(at 111.76 86.36 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +1966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 86.36 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +1975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 86.36 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2080,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 72.39 270)
+		(at 120.65 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2151,7 +2105,7 @@
 			)
 		)
 		(property "Footprint" "apc-custom:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4_Doublesided"
-			(at 116.84 73.3552 0)
+			(at 124.46 71.4248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
