@@ -41103,7 +41103,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "serial_interface.kicad_sch"
 			(at 513.08 35.6366 0)
 			(effects
 				(font
